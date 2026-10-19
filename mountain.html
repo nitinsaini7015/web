@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <style>
+     input::placeholder{
+        color: black;
+    }
+   
+   </style>
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    .nav-h1{
+        backdrop-filter: blur(10px); 
+        width: 300px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 130px;
+        border: 2px solid black;
+    }
+    .nav-btn{
+        background-color: green;
+        color: white;
+        padding: 5px;
+        width: 150px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .inp{
+        padding: 5px;
+        width: 160px;
+    }
+</style>
+<body>
+    <div style="position: absolute;">
+        <video width="100%" controls
+         src="./Mountain video.mp4"></video>
+    </div>
+    <div  style="position: relative; top: 150px; left: 520px;">
+        <div class="nav-h1">
+               <h1>ENTRY PAGE</h1>
+               <label for="Name"></label> <br>
+               <input type="text" class="inp" placeholder="Name : " name="" id=""> <br>
+               <label for="Father Name"></label> <br>
+               <input type="text" class="inp" placeholder="Father Name : " name="" id=""> <br>
+               <label for="Email"></label> <br>
+               <input type="text" class="inp" placeholder="Email : " name="" id=""> <br> 
+               <label for="Password"></label> <br>
+               <input type="text" class="inp" placeholder="Password : " name="" id=""> <br> <br>
+               <button class="nav-btn">Call me</button> <br>
+        </div>
+    </div>
+</body>
+</html>

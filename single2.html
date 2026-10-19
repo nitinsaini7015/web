@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .nav-main{
+       background-color: antiquewhite;
+       color: black;   
+        justify-content: space-between;
+        display:flex ;
+        align-items: center;
+       
+    }
+    .nav-link ul{
+        display: flex;
+        list-style: none;
+        gap: 200px;
+        padding: 20px;
+    }
+    .nav-btn button{
+        background-color: green;
+        color: white;
+        padding: 5px;
+        width: 150px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .nav-home{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        color: white;
+     font-size: 20px;
+    }
+    .nav-aboutmain{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 100px;
+        
+    }
+
+    .about{
+        font-size: 50px;
+        color: black;
+    }
+    .hero{
+        font-size: 80px;
+        color: black;
+        
+    }
+    .nav-box{
+        display: flex;
+        gap: 170px;
+        color: black;
+    }
+    .h1-box{
+        font-size: 60px;
+        color: black;
+        margin-top: 150px;
+    }
+    .hero-p{
+        font-size: 25px;
+    }
+    .img{
+        margin-top: 150px;
+    }
+    .container{
+        margin-top: 50px;
+        display: flex;
+        gap: 450px;
+    }
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 100px;
+    }
+    .footer-h1{
+        font-size: 60px;
+        
+    }
+    .footer-p{
+        font-size: 25px;
+        margin-top: 20px;
+    }
+    .footer-main{
+        background-color: lightblue;
+        
+    }
+    </style>
+</head>
+<body>
+   <section>
+    <div>
+        <nav>
+            <div class="nav-main">
+                <div class="nav-logo">
+                    <h1>LOGO</h1>
+                </div>
+                <div class="nav-link ul">
+                     <ul>
+                          <li>About</li>
+                          <li>Services</li>
+                          <li>Our work</li>
+                          <li>Pricing</li>
+                          <li>contact</li>
+                    </ul>
+                </div>
+                <div class="nav-btn">
+                    <button>Book a call</button>
+                </div>
+            </div>
+        </nav>
+    </div>
+     <div>
+    <div style="position: relative;">
+        <img src="./room.jpg" alt="" width="100%" height="760px">
+    </div>
+    <div class="nav-home" style="position: absolute; top: 150px;">
+            <p>Home Improvement Specialists · London & South East</p>
+            <h1 class="h1">YOUR HOME PERFECTED</h1>
+            <P>From kitchens and bathrooms to loft conversions and   <br>extensions — Rebuld transforms homes with expert <br> craftsmanship and clear communication throughout.</P>
+    </div>
+   </div>
+   </section> 
+     <!-- hero section -->
+  <section>
+    <div class="nav-aboutmain">
+        <div>
+            <h1 class="hero">About</h1>
+        </div>
+        <div class="hero-p">
+                <p>We started Rebuld because we saw homeowners being let down <br> — by tradespeople who disappeared mid-project, quotes that <br> ballooned overnight, and workmanship that didn't last. We built <br> something different. A team of fully qualified specialists who treat  <br>your home as if it were their own, backed by a process that <br> makes the whole experience genuinely stress-free.</p>
+        </div>
+    </div>
+  </section>
+   <!-- /hero section -->
+
+    <!-- box section -->
+  <section>
+    <div class="nav-box">
+        <div>
+            <h1 class="h1-box">Your home deserves <br> more than a  <br>contractor.It deserves <br> a team that cares.</h1>
+        </div>
+        <div class="img">
+            <img src="./room.jpg" alt="" width=300px>
+        </div>
+    </div>
+  </section>
+    <!--  /box section -->
+
+      <!--  container section -->
+    <section>
+        <div  class="container">
+            <div>
+                <h2>15 Years of Expertise</h2> <br>
+                <p>Over a decade and a half of delivering high-quality home improvements across <br> London and the South East. Experience you can see in every finish.</p> <br>
+                <h2>Clear Communication</h2> <br>
+                <p>A dedicated project manager, weekly updates, and an open-door policy. You'll <br> never be left wondering what's happening in your own home.</p> <br>
+                <h2>Guaranteed Work</h2> <br>
+                <p>Every project comes with a written workmanship guarantee. If something isn't <br> right, we make it right — no arguments, no excuses.</p> <br>
+            </div>
+            <div>
+                <img src="./room.jpg" alt="" width="350px">
+            </div>
+        </div>
+      </section>
+      <!-- /container section -->
+       <section>
+        <div class="footer-main">
+            <div class="footer">
+                <h1 class="footer-h1">Results that <br> speak for <br> themselves.</h1>
+                <p class="footer-p">Numbers don't lie. Every stat below is earned through real  <br>projects, real clients, and work we stand behind with a written <br> guarantee. This is what 15 years of doing things properly looks <br> like.</p>
+            </div>
+         </div>
+
+       </section>
+</body>
+</html>
